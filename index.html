@@ -1,0 +1,542 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Itim&family=Kaushan+Script&family=Yellowtail&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio - Asir Intisar</title>
+
+</head>
+<body class="bg-slate-900">
+    <!-- Navbar -->
+    <nav class="fixed w-full h-[100px] backdrop-blur-md text-white flex justify-between md:justify-evenly lg:justify-evenly items-center p-5 z-50">
+        <!-- Nav Left -->
+        <div>
+           <h1 class="font-signature text-2xl">Asir Intisar</h1>
+        </div>
+        <!-- Nav Middle -->
+         <div class="hidden md:block lg:block flex justify-center gap-5 items-center">
+            <a href="" class="text-lg uppercase font-semibold font-sans py-1 px-5 hover:bg-yellow-400 hover:text-slate-500 hover:border-2 border-slate-600 rounded-full">Home</a>
+            <a href="" class="text-lg uppercase font-semibold font-sans py-1 px-5 hover:bg-yellow-400 hover:text-slate-500 hover:border-2 border-slate-600 rounded-full">Projects</a>
+            <a href="" class="text-lg uppercase font-semibold font-sans py-1 px-5 hover:bg-yellow-400 hover:text-slate-500 hover:border-2 border-slate-600 rounded-full">About</a>
+            <a href="" class="text-lg uppercase font-semibold font-sans py-1 px-5 hover:bg-yellow-400 hover:text-slate-500 hover:border-2 border-slate-600 rounded-full">Contact</a>
+         </div>
+        <!-- Nav Right -->
+        <div class="resume-btn mt-2 ">
+            <div class="btn-r"><a target="_blank" href="https://drive.google.com/file/d/1oCqZSTyvK5Mn34mFSt0EAJaNmj7TV1sg/view?usp=sharing">Resume</a></div>
+        </div>
+    </nav>
+   <main class="pt-32">
+    <!-- Banner Section -->
+    <div class="flex flex-col-reverse gap-11 lg:gap-0 lg:flex-row justify-evenly items-center px-5 md:px-11 lg:p-20">
+        <!-- Banner left -->
+        <div class="max-w-[750px]">
+            <h1 class="text-blue-300 text-2xl font-sans font-semibold mb-3">HELLO 😊!</h1>
+            <h1 class="text-white text-5xl font-mono font-semibold my-3">I'M MD ASIR INTISAR</h1>
+            <h2 class="text-yellow-600 text-3xl font-sans font-semibold uppercase italic">Software Developer</h2>
+            <p class="my-5 font-itim text-lg text-white">I'm a back-end focused full-stack Django developer from Rajshahi, Bangladesh, with a deep passion for AI and machine learning.</p>
+            <button type="button" class="btn-con mt-8">
+                <strong class="text-white text-lg">Contact</strong>
+                <div id="container-stars">
+                  <div id="stars"></div>
+                </div>
+              
+                <div id="glow">
+                  <div class="circle"></div>
+                  <div class="circle"></div>
+                </div>
+              </button>
+        </div>
+        <!-- Banner right -->
+        <div class="max-w-[300px] md:max-w-[350px] lg:max-w-[370px]">
+            <img class="w-full border-orange-500 rounded-full shadow-lg px-" src="https://i.ibb.co.com/vv4g1RY/Whats-App-Image-2024-11-02-at-18-03-33-6a7fb4bc.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="w-full lg:w-5/6 mx-auto">
+        <h1 class="text-5xl font-bold text-yellow-400 font-itim text-center mt-11 lg:my-11">About Me</h1>
+        <div class="flex justify-center flex-col lg:flex-row items-center p-2 lg:p-8 my-11 lg:my-24">
+            <!-- Left Side (Image) -->
+            <div class="w-[370px] ">
+                <img src="https://i.ibb.co.com/V9LvKHn/pic3435.jpg" alt="Your Image" class="border-4 mx-auto lg:mx-0 border-slate-600 w-80 h-80 rounded-full object-cover shadow-lg">
+            </div>
+            <!-- Middle Divider Line -->
+            <div class="hidden lg:block h-80 border-l-4 border-red-500 mx-8"></div>
+            <!-- Right Side (Text) -->
+            <div class="lg:max-w-[650px] lg:ml-11 p-3 my-5 lg:p-5 bg-gray-800 rounded-lg md:mx-3">
+                <h1 class="text-white text-xl text-center mb-2 font-mono">Software Developer || Python | Django | DRF | DSA || Passionate to be Software Engineer</h1>
+                <p class="text-gray-300 leading-relaxed font-itim my-2">
+                  I'm a software developer specializing in Python, Django, and Django Rest Framework (DRF), with a strong foundation in Data Structures and Algorithms. My primary focus is backend development, complemented by a working knowledge of frontend basics. 
+                </p>
+                <p class="text-gray-300 leading-relaxed font-itim my-2">
+                  Passionate about machine learning and AI, I'm dedicated to learning continuously and applying new ideas to build impactful, forward-thinking projects.
+                </p>
+                <p class="text-gray-300 leading-relaxed text-center font-itim">
+                  Let's build something amazing together!🤝
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Education Section -->
+    <div class="w-full lg:w-5/6 mx-auto">
+      <h1 class="text-5xl font-bold text-yellow-400 text-center font-itim mb-11">Education</h1>
+      <!-- Education Item -->
+      <div class="mx-5 lg:w-3/4 bg-gray-800 p-3 rounded-lg shadow-lg my-16 lg:mx-auto">
+          <div class="overflow-x-auto m-0 p-0">
+            <pre class="w-full text-gray-300 whitespace-pre">
+              <code>
+              <span class="text-red-500">class</span> <span class="text-green-500">Education</span>:
+                  <span class="text-red-500">def</span> <span class="text-purple-400">__init__</span>(self): 
+                          self.degree = <span class="text-green-400">"Bachelor of Business Administration (BBA)" </span> 
+                          self.institution = <span class="text-green-400">"National University of Bangladesh" </span>
+                          self.year = <span class="text-green-400">"2023 - 2024"</span>
+              
+                  <span class="text-red-500">def</span> <span class="text-purple-400">display</span>(self):
+                  <span class="text-red-500">return</span> <span class="text-purple-400">f</span><span class="text-green-400">"{self.degree} | {self.institution} | {self.year}"</span> 
+              
+              <span></span>edu = <span class="text-green-500">Education</span>() 
+              <span class="text-purple-600">print</span>(edu.<span class="text-purple-400">display</span>())
+              </code>
+          </pre>
+          </div>
+            
+        </div>
+    </div>
+
+    <!-- Skill Section -->
+    <div class="w-full lg:w-4/6 mx-auto">
+      <h1 class="text-5xl font-bold text-yellow-400 text-center font-itim my-24">Skills</h1>
+      <div class="flex justify-center items-center gap-6 md:gap-16 lg:gap-16 flex-wrap  my-24">
+        <!-- C -->
+        <div class="skill-card">
+          <div class="skill-card-info">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="90%" height="90%" viewBox="0 0 48 48">
+              <linearGradient id="9nBOzQEsA2vJDj4A8wbora_shQTXiDQiQVR_gr1" x1="22.48" x2="31.833" y1="19.823" y2="45.52" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3940a4"></stop><stop offset="1" stop-color="#293091"></stop></linearGradient><path fill="url(#9nBOzQEsA2vJDj4A8wbora_shQTXiDQiQVR_gr1)" fill-rule="evenodd" d="M22.903,3.286c0.679-0.381,1.515-0.381,2.193,0	c3.355,1.883,13.451,7.551,16.807,9.434C42.582,13.1,43,13.804,43,14.566c0,3.766,0,15.101,0,18.867	c0,0.762-0.418,1.466-1.097,1.847c-3.355,1.883-13.451,7.551-16.807,9.434c-0.679,0.381-1.515,0.381-2.193,0	c-3.355-1.883-13.451-7.551-16.807-9.434C5.418,34.899,5,34.196,5,33.434c0-3.766,0-15.101,0-18.867	c0-0.762,0.418-1.466,1.097-1.847C9.451,10.837,19.549,5.169,22.903,3.286z" clip-rule="evenodd"></path><linearGradient id="9nBOzQEsA2vJDj4A8wborb_shQTXiDQiQVR_gr2" x1="16.43" x2="26.687" y1="3.382" y2="31.562" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7b83eb"></stop><stop offset="1" stop-color="#5961c3"></stop></linearGradient><path fill="url(#9nBOzQEsA2vJDj4A8wborb_shQTXiDQiQVR_gr2)" fill-rule="evenodd" d="M5.304,34.404C5.038,34.048,5,33.71,5,33.255c0-3.744,0-15.014,0-18.759c0-0.758,0.417-1.458,1.094-1.836	c3.343-1.872,13.405-7.507,16.748-9.38c0.677-0.379,1.594-0.371,2.271,0.008c3.343,1.872,13.371,7.459,16.714,9.331	c0.27,0.152,0.476,0.335,0.66,0.576L5.304,34.404z" clip-rule="evenodd"></path><path fill="#fff" fill-rule="evenodd" d="M24,10c7.727,0,14,6.273,14,14s-6.273,14-14,14s-14-6.273-14-14	S16.273,10,24,10z M24,17c3.863,0,7,3.136,7,7c0,3.863-3.137,7-7,7s-7-3.137-7-7C17,20.136,20.136,17,24,17z" clip-rule="evenodd"></path><linearGradient id="9nBOzQEsA2vJDj4A8wborc_shQTXiDQiQVR_gr3" x1="31.031" x2="39.734" y1="12.865" y2="36.777" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5c65d6"></stop><stop offset=".999" stop-color="#464eb0"></stop></linearGradient><path fill="url(#9nBOzQEsA2vJDj4A8wborc_shQTXiDQiQVR_gr3)" fill-rule="evenodd" d="M42.485,13.205c0.516,0.483,0.506,1.211,0.506,1.784c0,3.795-0.032,14.589,0.009,18.384c0.004,0.396-0.127,0.813-0.323,1.127	L23.593,24L42.485,13.205z" clip-rule="evenodd"></path><path d="M24,10c5.128,0,9.602,2.771,12.041,6.887l-6.073,3.47C28.737,18.347,26.527,17,24,17c-3.864,0-7,3.136-7,7 c0,3.863,3.137,7,7,7c2.57,0,4.812-1.392,6.029-3.459l6.132,3.374C33.75,35.142,29.21,38,24,38c-7.727,0-14-6.273-14-14 S16.273,10,24,10 M24,9C15.729,9,9,15.729,9,24s6.729,15,15,15c5.367,0,10.36-2.908,13.03-7.59l0.503-0.882l-0.89-0.49 l-6.132-3.374l-0.851-0.468l-0.493,0.837C28.09,28.863,26.11,30,24,30c-3.308,0-6-2.692-6-6s2.692-6,6-6 c2.099,0,4.011,1.076,5.115,2.879l0.507,0.828l0.842-0.481l6.073-3.47l0.882-0.504l-0.518-0.874C34.205,11.827,29.262,9,24,9L24,9 z" opacity=".05"></path><path d="M24,10c5.128,0,9.602,2.771,12.041,6.887l-6.073,3.47C28.737,18.347,26.527,17,24,17c-3.864,0-7,3.136-7,7 c0,3.863,3.137,7,7,7c2.57,0,4.812-1.392,6.029-3.459l6.132,3.374C33.75,35.142,29.21,38,24,38c-7.727,0-14-6.273-14-14 S16.273,10,24,10 M24,9.5C16.005,9.5,9.5,16.005,9.5,24S16.005,38.5,24,38.5c5.188,0,10.014-2.812,12.595-7.337l0.252-0.441 l-0.445-0.245l-6.132-3.374l-0.425-0.234l-0.246,0.418C28.431,29.269,26.286,30.5,24,30.5c-3.584,0-6.5-2.916-6.5-6.5 s2.916-6.5,6.5-6.5c2.275,0,4.346,1.166,5.542,3.118l0.253,0.414l0.421-0.241l6.073-3.47l0.441-0.252l-0.259-0.437 C33.864,12.233,29.086,9.5,24,9.5L24,9.5z" opacity=".07"></path>
+              </svg>
+          </div>
+        </div>
+        <!-- C++ -->
+        <div class="skill-card">
+          <div class="skill-card-info">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="90%" height="90%" viewBox="0 0 48 48">
+              <path fill="#00549d" fill-rule="evenodd" d="M22.903,3.286c0.679-0.381,1.515-0.381,2.193,0 c3.355,1.883,13.451,7.551,16.807,9.434C42.582,13.1,43,13.804,43,14.566c0,3.766,0,15.101,0,18.867 c0,0.762-0.418,1.466-1.097,1.847c-3.355,1.883-13.451,7.551-16.807,9.434c-0.679,0.381-1.515,0.381-2.193,0 c-3.355-1.883-13.451-7.551-16.807-9.434C5.418,34.899,5,34.196,5,33.434c0-3.766,0-15.101,0-18.867 c0-0.762,0.418-1.466,1.097-1.847C9.451,10.837,19.549,5.169,22.903,3.286z" clip-rule="evenodd"></path><path fill="#0086d4" fill-rule="evenodd" d="M5.304,34.404C5.038,34.048,5,33.71,5,33.255 c0-3.744,0-15.014,0-18.759c0-0.758,0.417-1.458,1.094-1.836c3.343-1.872,13.405-7.507,16.748-9.38 c0.677-0.379,1.594-0.371,2.271,0.008c3.343,1.872,13.371,7.459,16.714,9.331c0.27,0.152,0.476,0.335,0.66,0.576L5.304,34.404z" clip-rule="evenodd"></path><path fill="#fff" fill-rule="evenodd" d="M24,10c7.727,0,14,6.273,14,14s-6.273,14-14,14 s-14-6.273-14-14S16.273,10,24,10z M24,17c3.863,0,7,3.136,7,7c0,3.863-3.137,7-7,7s-7-3.137-7-7C17,20.136,20.136,17,24,17z" clip-rule="evenodd"></path><path fill="#0075c0" fill-rule="evenodd" d="M42.485,13.205c0.516,0.483,0.506,1.211,0.506,1.784 c0,3.795-0.032,14.589,0.009,18.384c0.004,0.396-0.127,0.813-0.323,1.127L23.593,24L42.485,13.205z" clip-rule="evenodd"></path><path fill="#fff" fill-rule="evenodd" d="M31 21H33V27H31zM38 21H40V27H38z" clip-rule="evenodd"></path><path fill="#fff" fill-rule="evenodd" d="M29 23H35V25H29zM36 23H42V25H36z" clip-rule="evenodd"></path>
+              </svg>
+          </div>
+        </div>
+        <!-- Python -->
+        <div class="skill-card">
+          <div class="skill-card-info">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="90%" height="90%" viewBox="0 0 48 48">
+              <linearGradient id="goqfu1ZNmEnUrQDJEQ1bUa_l75OEUJkPAk4_gr1" x1="10.458" x2="26.314" y1="12.972" y2="26.277" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#26abe7"></stop><stop offset="1" stop-color="#086dbf"></stop></linearGradient><path fill="url(#goqfu1ZNmEnUrQDJEQ1bUa_l75OEUJkPAk4_gr1)" d="M24.047,5c-1.555,0.005-2.633,0.142-3.936,0.367c-3.848,0.67-4.549,2.077-4.549,4.67V14h9v2 H15.22h-4.35c-2.636,0-4.943,1.242-5.674,4.219c-0.826,3.417-0.863,5.557,0,9.125C5.851,32.005,7.294,34,9.931,34h3.632v-5.104 c0-2.966,2.686-5.896,5.764-5.896h7.236c2.523,0,5-1.862,5-4.377v-8.586c0-2.439-1.759-4.263-4.218-4.672 C27.406,5.359,25.589,4.994,24.047,5z M19.063,9c0.821,0,1.5,0.677,1.5,1.502c0,0.833-0.679,1.498-1.5,1.498 c-0.837,0-1.5-0.664-1.5-1.498C17.563,9.68,18.226,9,19.063,9z"></path><linearGradient id="goqfu1ZNmEnUrQDJEQ1bUb_l75OEUJkPAk4_gr2" x1="35.334" x2="23.517" y1="37.911" y2="21.034" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#feb705"></stop><stop offset="1" stop-color="#ffda1c"></stop></linearGradient><path fill="url(#goqfu1ZNmEnUrQDJEQ1bUb_l75OEUJkPAk4_gr2)" d="M23.078,43c1.555-0.005,2.633-0.142,3.936-0.367c3.848-0.67,4.549-2.077,4.549-4.67V34h-9v-2 h9.343h4.35c2.636,0,4.943-1.242,5.674-4.219c0.826-3.417,0.863-5.557,0-9.125C41.274,15.995,39.831,14,37.194,14h-3.632v5.104 c0,2.966-2.686,5.896-5.764,5.896h-7.236c-2.523,0-5,1.862-5,4.377v8.586c0,2.439,1.759,4.263,4.218,4.672 C19.719,42.641,21.536,43.006,23.078,43z M28.063,39c-0.821,0-1.5-0.677-1.5-1.502c0-0.833,0.679-1.498,1.5-1.498 c0.837,0,1.5,0.664,1.5,1.498C29.563,38.32,28.899,39,28.063,39z"></path>
+              </svg>
+          </div>
+        </div>
+        <!-- Django -->
+        <div class="skill-card">
+          <div class="skill-card-info">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" class="bg-yellow-600 rounded-full " x="0px" y="0px" width="80%" height="80%" viewBox="0 0 24 24">
+                <rect width="3" height="3" x="16" y="3"></rect><path d="M19,16.702c0,1-0.235,4.294-3.141,5.294L13,20.702c2.078-0.906,3-2.484,3-4C16,14.608,16,8,16,8h3 C19,8,19,14.452,19,16.702z"></path><path d="M9.97,16.533c-3.115,0-3.58-2.214-3.58-3.533c0-2.313,1.372-3.75,3.58-3.75 c0.357,0,0.768,0.054,1.254,0.166L12,9.593v6.597l-0.776,0.178C10.739,16.479,10.329,16.533,9.97,16.533z" opacity=".3"></path><path d="M11,3v5.159C10.653,8.018,9.904,8,9.535,8C6.759,8,4.19,9.306,4.19,13c0,4.42,3.48,5,5.81,5c0.92,0,3-0.09,4-0.38V3H11z M9.97,15.533c-1.31,0-2.58-0.413-2.58-2.533s1.27-2.45,2.58-2.45c0.32,0,0.68,0.06,1.03,0.14v4.703 C10.65,15.473,10.29,15.533,9.97,15.533z"></path>
+                </svg>
+          </div>
+        </div>
+        <!-- Javascript -->
+        <div class="skill-card">
+          <div class="skill-card-info">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+              <path fill="#ffd600" d="M6,42V6h36v36H6z"></path><path fill="#000001" d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z"></path>
+              </svg>
+          </div>
+        </div>
+        <!-- HTML -->
+        <div class="skill-card">
+          <div class="skill-card-info">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="90%" height="90%" viewBox="0 0 48 48">
+              <linearGradient id="SNASnMitCxQrIYk4GDibta_v8RpPQUwv0N8_gr1" x1="18.208" x2="34.159" y1="2.413" y2="46.236" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f09701"></stop><stop offset="1" stop-color="#e36001"></stop></linearGradient><path fill="url(#SNASnMitCxQrIYk4GDibta_v8RpPQUwv0N8_gr1)" d="M7.192,7.176l2.627,29.77c0.109,1.237,0.97,2.28,2.164,2.621l10.643,3.041	c0.898,0.257,1.849,0.257,2.747,0l10.643-3.041c1.194-0.341,2.055-1.383,2.164-2.621l2.627-29.77C40.911,6.006,39.99,5,38.816,5	H9.184C8.01,5,7.089,6.006,7.192,7.176z"></path><path fill="#f09601" d="M24,8v31.9l9.876-2.822c0.797-0.228,1.371-0.924,1.443-1.749l2.286-26.242	C37.656,8.502,37.196,8,36.609,8H24z"></path><path fill="#fff" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5L24,25z M32.9,17l0.3-4H24v4H32.9z"></path><path fill="#d6e0e9" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path><path d="M33.2,13l-0.3,4H24h-4.9l0.3,4H24h8.6l-0.7,11.5L24,35.1l-7.9-2.6L15.7,27h4l0.2,2.5l4.1,1.4l4.1-1.4l0.3-4.5H24h-8.4 l-0.7-12H24H33.2 M34.278,12H33.2H24h-9.1h-1.06l0.062,1.058l0.7,12L14.657,26h-0.032l0.078,1.073l0.4,5.5l0.049,0.668 l0.636,0.209l7.9,2.6L24,36.153l0.313-0.103l7.9-2.6l0.644-0.212l0.041-0.677l0.7-11.5L33.663,20H32.6H24h-3.672l-0.15-2H24h8.9 h0.928l0.069-0.925l0.3-4L34.278,12L34.278,12z M20.623,26H24h3.331l-0.185,2.769L24,29.843l-3.156-1.077l-0.148-1.846L20.623,26 L20.623,26z" opacity=".05"></path><path d="M33.2,13l-0.3,4H24h-4.9l0.3,4H24h8.6l-0.7,11.5L24,35.1l-7.9-2.6L15.7,27h4l0.2,2.5l4.1,1.4l4.1-1.4l0.3-4.5H24h-8.4 l-0.7-12H24H33.2 M33.739,12.5H33.2H24h-9.1h-0.53l0.031,0.529l0.7,12l0.027,0.471H15.6H24h3.866l-0.242,3.634L24,30.372 l-3.628-1.239l-0.174-2.173l-0.037-0.46H19.7h-4h-0.538l0.039,0.536l0.4,5.5l0.024,0.334l0.318,0.105l7.9,2.6L24,35.626 l0.156-0.051l7.9-2.6l0.322-0.106l0.021-0.339l0.7-11.5l0.032-0.53H32.6H24h-4.136l-0.225-3H24h8.9h0.464l0.035-0.463l0.3-4 L33.739,12.5L33.739,12.5z" opacity=".07"></path>
+              </svg>
+          </div>
+        </div>
+        <!-- CSS -->
+        <div class="skill-card">
+          <div class="skill-card-info">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="90%" height="90%" viewBox="0 0 100 100">
+              <path d="M51.958,98c-0.58,0-1.16-0.078-1.724-0.232l-27.742-7.702c-2.593-0.72-4.495-3.004-4.735-5.685	l-6.179-69.304c-0.16-1.813,0.451-3.621,1.677-4.962C14.485,8.77,16.233,8,18.053,8h67.895c1.821,0,3.569,0.771,4.798,2.115	c1.225,1.339,1.837,3.147,1.677,4.959L86.236,84.37c-0.24,2.683-2.145,4.967-4.739,5.686l-27.803,7.709	C53.124,97.921,52.542,98,51.958,98z" opacity=".35"></path><path fill="#f2f2f2" d="M49.958,96c-0.58,0-1.16-0.078-1.724-0.232l-27.742-7.702c-2.593-0.72-4.495-3.004-4.735-5.685	L9.578,13.077c-0.16-1.813,0.451-3.621,1.677-4.962C12.485,6.77,14.233,6,16.053,6h67.895c1.821,0,3.569,0.771,4.798,2.115	c1.225,1.339,1.837,3.147,1.677,4.959L84.236,82.37c-0.24,2.683-2.145,4.967-4.739,5.686l-27.803,7.709	C51.124,95.921,50.542,96,49.958,96z"></path><polygon fill="#2b59a1" points="83.947,12.5 77.762,81.792 49.958,89.5 22.231,81.803 16.053,12.5"></polygon><path fill="#40396e" d="M49.958,91c-0.135,0-0.27-0.019-0.401-0.055L21.83,83.249c-0.602-0.167-1.037-0.689-1.093-1.312	l-6.179-69.303c-0.037-0.419,0.104-0.835,0.388-1.146C15.23,11.177,15.632,11,16.053,11h67.895c0.421,0,0.822,0.177,1.106,0.488	c0.284,0.311,0.425,0.726,0.388,1.146l-6.186,69.292c-0.056,0.622-0.491,1.145-1.094,1.312l-27.804,7.709	C50.228,90.982,50.093,91,49.958,91z M23.634,80.635l26.324,7.309l26.402-7.32L82.308,14H17.692L23.634,80.635z"></path><polygon fill="#2785bd" points="72.467,77.38 77.771,17.957 50,17.957 50,83.608"></polygon><polygon fill="#d9eeff" points="50,43.957 51,47.957 50,51.957 30.94,51.957 30.23,43.957"></polygon><polygon fill="#d9eeff" points="50,26.957 51,30.957 50,34.957 29.441,34.957 28.72,26.957"></polygon><polygon fill="#d9eeff" points="51,69.957 50,74.796 32.55,69.967 31.39,56.957 39.92,56.957 40.5,63.397 50,65.957"></polygon><path fill="#f2f2f2" d="M50,26.957v8h11.969l-0.807,9H50c-0.009-0.002-0.008,8-0.008,8h10.485l-1.027,11.44L50,65.957v8.84	l17.4-4.83l0.12-1.44l2-22.37l0.21-2.29l1.5-16.91H50z"></path>
+              </svg>
+          </div>
+        </div>
+        <!-- Bootstrape -->
+        <div class="skill-card">
+          <div class="skill-card-info">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="90%" height="90%" viewBox="0 0 48 48">
+              <path fill="#6c19ff" d="M6.391,10.671c-0.085-2.448,1.822-4.706,4.401-4.706h26.42c2.578,0,4.486,2.258,4.401,4.706	c-0.082,2.352,0.024,5.398,0.791,7.882c0.769,2.492,2.066,4.067,4.19,4.269v2.295c-2.124,0.202-3.421,1.777-4.19,4.269	c-0.767,2.484-0.873,5.53-0.791,7.882c0.085,2.448-1.822,4.706-4.401,4.706h-26.42c-2.578,0-4.486-2.258-4.4-4.706	c0.082-2.352-0.025-5.398-0.791-7.882c-0.769-2.492-2.069-4.067-4.194-4.269v-2.295c2.124-0.202,3.425-1.777,4.194-4.269	C6.367,16.07,6.473,13.023,6.391,10.671z"></path><linearGradient id="Is-EGaxKcc0Cic9QMqyzGa_EzPCiQUqWWEa_gr1" x1="17.846" x2="27.078" y1="-147.541" y2="-163.153" gradientTransform="matrix(1 0 0 -1 0 -132)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"></stop><stop offset="1" stop-color="#f1e5fc"></stop></linearGradient><path fill="url(#Is-EGaxKcc0Cic9QMqyzGa_EzPCiQUqWWEa_gr1)" d="M25.042,34.016c4.366,0,6.997-2.138,6.997-5.664c0-2.665-1.877-4.595-4.665-4.9v-0.111	c2.048-0.333,3.655-2.235,3.655-4.359c0-3.026-2.389-4.997-6.03-4.997h-8.192v20.031H25.042z M19.994,16.525h4.238	c2.304,0,3.612,1.027,3.612,2.887c0,1.985-1.522,3.096-4.281,3.096h-3.57V16.525z M19.994,31.475v-6.594h4.21	c3.015,0,4.579,1.11,4.579,3.276c0,2.165-1.522,3.318-4.394,3.318H19.994z"></path>
+              </svg>
+          </div>
+        </div>
+        <!-- Tailwind -->
+        <div class="skill-card">
+          <div class="skill-card-info">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="90%" height="90%" viewBox="0 0 48 48">
+              <path fill="#00acc1" d="M24,9.604c-6.4,0-10.4,3.199-12,9.597c2.4-3.199,5.2-4.398,8.4-3.599 c1.826,0.456,3.131,1.781,4.576,3.247C27.328,21.236,30.051,24,36,24c6.4,0,10.4-3.199,12-9.598c-2.4,3.199-5.2,4.399-8.4,3.6 c-1.825-0.456-3.13-1.781-4.575-3.247C32.672,12.367,29.948,9.604,24,9.604L24,9.604z M12,24c-6.4,0-10.4,3.199-12,9.598 c2.4-3.199,5.2-4.399,8.4-3.599c1.825,0.457,3.13,1.781,4.575,3.246c2.353,2.388,5.077,5.152,11.025,5.152 c6.4,0,10.4-3.199,12-9.598c-2.4,3.199-5.2,4.399-8.4,3.599c-1.826-0.456-3.131-1.781-4.576-3.246C20.672,26.764,17.949,24,12,24 L12,24z"></path>
+              </svg>
+          </div>
+        </div>
+        <!-- MySQL -->
+        <div class="skill-card">
+          <div class="skill-card-info">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="80%" height="80%" viewBox="0 0 48 48">
+              <linearGradient id="eDMgMixeD6M6EYSYBuJ8ya_9nLaR5KFGjN0_gr1" x1="9.8" x2="11.081" y1="25.236" y2="36.899" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#058f92"></stop><stop offset=".5" stop-color="#038489"></stop><stop offset="1" stop-color="#026d71"></stop></linearGradient><path fill="url(#eDMgMixeD6M6EYSYBuJ8ya_9nLaR5KFGjN0_gr1)" d="M0.002,35.041h1.92v-7.085l2.667,6.057c0.329,0.755,0.779,1.022,1.662,1.022 s1.315-0.267,1.644-1.022l2.667-5.902v6.93h1.92v-7.258c0-0.697-0.277-1.035-0.849-1.209c-1.367-0.43-2.285-0.059-2.7,0.872 l-2.735,6.16l-2.649-6.16c-0.398-0.93-1.332-1.302-2.7-0.872C0.277,26.748,0,27.085,0,27.782v7.258H0.002z M13.441,29.281h1.92 v4.055c-0.015,0.2,0.064,0.731,0.99,0.745c0.472,0.008,2.821,0,2.85,0v-4.8h1.92c0.008,0,0,5.968,0,5.993 c0.01,1.472-1.828,1.662-2.673,1.687h-5.006v-0.96c0.01,0,4.787,0.001,4.801,0c1.088-0.115,0.959-0.714,0.959-0.896v-0.064H16.19 c-1.67-0.015-2.735-0.751-2.747-1.59C13.441,33.373,13.479,29.317,13.441,29.281z"></path><linearGradient id="eDMgMixeD6M6EYSYBuJ8yb_9nLaR5KFGjN0_gr2" x1="34.224" x2="35.101" y1="25.644" y2="35.217" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff9c0f"></stop><stop offset=".813" stop-color="#d67e00"></stop></linearGradient><path fill="url(#eDMgMixeD6M6EYSYBuJ8yb_9nLaR5KFGjN0_gr2)" d="M22.081,35.041h4.807c0.63,0,1.242-0.132,1.728-0.36c0.81-0.372,1.144-0.875,1.144-1.536 v-1.368c0-1.476-1.83-1.536-2.88-1.536h-1.92c-0.755,0-0.87-0.456-0.96-0.96v-0.96c0.09-0.384,0.258-0.9,0.923-0.96 c0.773,0,4.836,0,4.836,0v-0.96h-4.566c-0.755,0-3.114,0.09-3.114,1.92v1.187c0,0.84,0.738,1.524,2.34,1.692 c0.18,0.012,0.36,0.024,0.539,0.024c0,0,1.866-0.036,1.92-0.024c1.08,0,0.96,0.84,0.96,0.96v0.96c0,0.132-0.03,0.96-0.971,0.96 c-0.072,0-4.789,0-4.789,0V35.041z M40.32,33.08c0,1.159,0.655,1.809,2.392,1.939c0.162,0.011,0.325,0.021,0.488,0.021H48v-0.96 h-4.435c-0.991,0-1.325-0.416-1.325-1.011v-6.669h-1.92V33.08z M30.704,33.121v-4.8c0-1.02,0.5-1.724,1.916-1.92h0.672h3.447h0.525 c1.416,0.196,2.08,0.899,2.08,1.92v4.782c0,0.827-0.215,1.271-0.916,1.559L39.916,36h-2.16l-1.07-0.96h-1.257l-2.136,0.012 c-0.309,0-0.635-0.043-0.993-0.141C31.226,34.618,30.704,34.054,30.704,33.121z M32.624,33.121c0.098,0.467,0.473,0.96,1.14,0.96 h1.864l-1.068-0.96h2.175l0.519,0.482c0,0,0.186-0.152,0.186-0.482c0-0.33-0.016-4.8-0.016-4.8c-0.098-0.434-0.538-0.96-1.188-0.96 h-2.471c-0.749,0-1.14,0.548-1.14,1.058L32.624,33.121L32.624,33.121z"></path><linearGradient id="eDMgMixeD6M6EYSYBuJ8yc_9nLaR5KFGjN0_gr3" x1="35.029" x2="40.355" y1="11.716" y2="26.75" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#058f92"></stop><stop offset=".5" stop-color="#038489"></stop><stop offset="1" stop-color="#026d71"></stop></linearGradient><path fill="url(#eDMgMixeD6M6EYSYBuJ8yc_9nLaR5KFGjN0_gr3)" d="M46.199,25.389c-1.031-0.028-1.818,0.068-2.491,0.351c-0.191,0.081-0.496,0.083-0.528,0.323 c0.105,0.11,0.121,0.275,0.205,0.41c0.16,0.26,0.432,0.609,0.674,0.791c0.265,0.2,0.538,0.414,0.821,0.587 c0.504,0.307,1.067,0.483,1.553,0.791c0.286,0.181,0.57,0.411,0.85,0.615c0.138,0.102,0.23,0.259,0.41,0.323 c0-0.01,0-0.019,0-0.029c-0.094-0.12-0.119-0.285-0.205-0.411c-0.127-0.127-0.254-0.254-0.381-0.381 c-0.372-0.494-0.846-0.929-1.348-1.289c-0.401-0.288-1.298-0.677-1.466-1.143c-0.01-0.01-0.019-0.019-0.03-0.03 c0.284-0.032,0.617-0.135,0.879-0.205c0.441-0.118,0.834-0.087,1.289-0.205c0.205-0.059,0.41-0.117,0.615-0.176 c0-0.039,0-0.078,0-0.117c-0.23-0.236-0.395-0.548-0.645-0.762c-0.657-0.559-1.373-1.117-2.11-1.583 c-0.409-0.258-0.915-0.426-1.348-0.645c-0.146-0.074-0.402-0.112-0.498-0.234c-0.228-0.29-0.351-0.659-0.527-0.996 c-0.368-0.708-0.73-1.482-1.055-2.227c-0.223-0.508-0.368-1.01-0.645-1.466c-1.331-2.188-2.764-3.509-4.982-4.807 c-0.472-0.276-1.041-0.385-1.642-0.528c-0.323-0.019-0.645-0.039-0.968-0.059c-0.197-0.083-0.401-0.323-0.587-0.44 c-0.735-0.465-2.621-1.475-3.165-0.147c-0.344,0.838,0.514,1.656,0.821,2.081c0.215,0.298,0.491,0.632,0.645,0.968 c0.101,0.22,0.119,0.441,0.205,0.674c0.213,0.574,0.55,1.228,0.826,1.759c0.139,0.269,0.293,0.551,0.469,0.791 c0.108,0.147,0.293,0.212,0.323,0.44c-0.181,0.253-0.191,0.646-0.293,0.968c-0.458,1.445-0.285,3.24,0.381,4.308 c0.204,0.328,0.686,1.032,1.348,0.762c0.579-0.236,0.45-0.967,0.615-1.612c0.037-0.146,0.014-0.253,0.088-0.351 c0,0.01,0,0.019,0,0.03c0.176,0.351,0.351,0.704,0.528,1.055c0.391,0.629,1.084,1.286,1.67,1.73 c0.304,0.23,0.544,0.628,0.938,0.762c0-0.01,0-0.019,0-0.03c-0.01,0-0.019,0-0.03,0c-0.076-0.119-0.196-0.168-0.293-0.264 c-0.229-0.225-0.485-0.504-0.674-0.762c-0.534-0.725-1.006-1.519-1.436-2.345c-0.205-0.395-0.384-0.829-0.557-1.231 c-0.067-0.155-0.066-0.389-0.205-0.469c-0.19,0.294-0.468,0.532-0.615,0.879c-0.234,0.555-0.265,1.233-0.351,1.934 c-0.052,0.018-0.029,0.006-0.059,0.029c-0.408-0.099-0.552-0.518-0.704-0.879c-0.384-0.912-0.455-2.38-0.117-3.429 c0.087-0.272,0.482-1.127,0.323-1.378c-0.076-0.251-0.328-0.396-0.468-0.587c-0.175-0.236-0.348-0.548-0.469-0.821 c-0.314-0.711-0.612-1.538-0.943-2.257c-0.158-0.344-0.425-0.691-0.645-0.996c-0.243-0.338-0.516-0.587-0.704-0.996 c-0.067-0.145-0.158-0.378-0.059-0.528c0.032-0.101,0.076-0.143,0.176-0.176c0.17-0.132,0.643,0.043,0.821,0.117 c0.47,0.195,0.862,0.381,1.26,0.645c0.191,0.127,0.384,0.372,0.615,0.44c0.088,0,0.176,0,0.264,0 c0.413,0.095,0.875,0.03,1.26,0.147c0.682,0.207,1.292,0.529,1.846,0.879c1.69,1.067,3.071,2.585,4.016,4.397 c0.152,0.292,0.218,0.57,0.351,0.879c0.27,0.624,0.611,1.266,0.879,1.876c0.268,0.609,0.53,1.223,0.909,1.73 c0.2,0.266,0.97,0.409,1.319,0.557c0.245,0.104,0.647,0.211,0.879,0.351c0.444,0.268,0.874,0.587,1.289,0.879 C45.528,24.803,46.167,25.124,46.199,25.389z"></path><path fill="#00796b" d="M33.098,14.223c-0.215-0.004-0.367,0.023-0.528,0.059c0,0.01,0,0.019,0,0.03c0.01,0,0.019,0,0.03,0 c0.103,0.21,0.283,0.347,0.41,0.528c0.098,0.205,0.195,0.41,0.293,0.615c0.01-0.01,0.019-0.019,0.029-0.029 c0.181-0.128,0.265-0.332,0.264-0.645c-0.073-0.077-0.084-0.173-0.147-0.264C33.365,14.394,33.203,14.325,33.098,14.223z"></path>
+              </svg>
+          </div>
+        </div>
+        <!-- PostgreSQL -->
+        <div class="skill-card">
+          <div class="skill-card-info">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="90%" height="90%" viewBox="0 0 100 100">
+              <path fill="#6e78ac" d="M83.242,60.482c-6.349,1.924-9.957-0.415-9.957-0.415s-0.006,0-0.007,0l-0.394-0.488	c0.131-0.117,0.264-0.242,0.4-0.381l0.019-0.017l-0.001-0.002c5.639-5.753,15.838-29.562,9.749-37.378	c-8.553-10.979-25.66-5.745-25.66-5.745l0.064,0.183c-4.889-1.666-9.947-1.625-13.851,0.838c-0.661,0.417-1.273,0.873-1.844,1.357	l0.014-0.187c0,0-8.149-3.213-15.851-2.383c-7.954,0.857-12.319,6.83-12.319,15.83s6.17,30.553,10.17,34.553s6,2,7,1	c0.896-0.896,6.588-7.387,7.771-8.738c2.143,1.4,4.575,1.743,5.983,1.748c-0.184,0.991-1.31,4.988-7.562,5.714	c-2.809,0.447-1.915,2.298,0.128,2.872c2.002,0.563,8.415,1.967,12.335-3.509c-0.052,3.397-0.183,9.771,0.304,15.126	c0.574,6.319,3.983,8.376,6.511,8.713c7.878,1.048,10.628-4.308,11.394-6.702c0.702-2.194,1.839-10.809,2.213-16.588l0.503-0.089	l-0.004,0.05c8.106,1.277,12.734-1.66,14.362-3.191C86.338,61.12,85.349,59.844,83.242,60.482z"></path><path fill="none" stroke="#1f212b" stroke-miterlimit="10" stroke-width="2" d="M39,58c0,0-6.75,7.562-7.75,8.562s-3,3-7-1	s-10.25-25-10.25-34s4.234-15.518,12.188-16.375C33.89,14.358,42,18,42,18"></path><path fill="none" stroke="#1f212b" stroke-miterlimit="10" stroke-width="2" d="M71.213,56.947	c2.681-2.106,2.968-8.713,2.489-12.734c-0.479-4.021,0.331-6.392,0.235-11.275C70.682,19.629,53.612,10.839,43.75,17.062	s-8.854,20.137-8.375,24.062s-2.444,6.539-0.625,12.188s7.644,6.698,10.037,6.698c2.394,0,4.883,0.957,4.883,3.543	s-0.287,10.34,0.287,16.66c0.574,6.319,3.983,8.376,6.511,8.713c7.878,1.048,10.628-4.309,11.394-6.702s2.052-12.439,2.298-18.096	c0.191-4.404,3.351-4.309,3.351-4.309s3.608,2.339,9.957,0.415c2.106-0.638,3.096,0.638,1.468,2.17	c-1.628,1.532-6.017,4.56-14.124,3.283"></path><path fill="none" stroke="#1f212b" stroke-miterlimit="10" stroke-width="2" d="M74.085,33.617c0,0-6.523-2.242-8.71,2.195	c-1.893,3.841,3.987,18.294,8.199,23.592"></path><path fill="none" stroke="#1f212b" stroke-miterlimit="10" stroke-width="2" d="M34.574,36.617c0,0,7.652-4.612,11.801-1.867	S48.936,48.106,47.149,52c-1.787,3.894-2.362,7.787-2.362,7.787s-0.447,5.106-7.596,5.936c-2.809,0.447-1.915,2.298,0.128,2.872	c2.043,0.574,8.681,2.043,12.574-3.83"></path><path fill="none" stroke="#1f212b" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M57.617,15.809	c0,0,17.356-4.174,25.383,5.629c6.553,8.003-4.766,33.882-10.191,38.158"></path><path fill="#1f212b" d="M69.154,38.037c-1.652,0.168-3.423-1.939-0.096-2.346C72.177,35.31,71.323,37.817,69.154,38.037z"></path><path fill="#1f212b" d="M43.223,38.848c-1.824-0.23-3.212-2.945,0.481-2.556C47.165,36.657,45.619,39.151,43.223,38.848z"></path><path fill="none" stroke="#1f212b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M39.492,27.447	c-0.236,0.688-0.451,1.425-0.641,2.213"></path><path fill="none" stroke="#1f212b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M47.808,18.479	c-2.789,0.876-5.771,2.939-7.731,7.456"></path><path fill="none" stroke="#1f212b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M55.064,18.298	c0,0-2.11-0.621-4.851-0.319"></path><path fill="none" stroke="#1f212b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M20.148,21.817	c-1.921,2.074-3.369,5.451-3.173,10.945"></path><path fill="none" stroke="#1f212b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M28.319,18.553	c0,0-3.417-0.258-6.503,1.833"></path><path fill="none" stroke="#1f212b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M53.549,82.6	c0.649,1.702,1.858,3.266,4.1,3.613"></path><path fill="none" stroke="#1f212b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M52.83,77.596	c0,0-0.095,1.358,0.186,3.001"></path>
+              </svg>
+          </div>
+        </div>
+        <!-- SQLite -->
+        <div class="skill-card">
+          <div class="skill-card-info">
+            <svg xmlns="http://www.w3.org/2000/svg" class="bg-yellow-600 rounded-full p-2" x="0px" y="0px" width="90%" height="90%" viewBox="0 0 50 50">
+              <path d="M 43.640625 1.0019531 C 42.177246 0.96137695 40.611719 1.7683594 39.058594 3.1464844 C 38.689594 3.4744844 38.321078 3.8385625 37.955078 4.2265625 C 33.705078 8.7355625 29.759203 17.086844 28.533203 23.464844 C 29.010203 24.432844 29.384859 25.669281 29.630859 26.613281 C 29.693859 26.855281 29.749922 27.081391 29.794922 27.275391 C 29.902922 27.733391 29.960938 28.029297 29.960938 28.029297 C 29.960938 28.029297 29.923578 27.885641 29.767578 27.431641 C 29.737578 27.344641 29.703062 27.250672 29.664062 27.138672 C 29.647063 27.092672 29.625609 27.036562 29.599609 26.976562 C 29.322609 26.331563 28.554797 24.970906 28.216797 24.378906 C 27.927797 25.230906 27.673937 26.027047 27.460938 26.748047 C 28.434938 28.531047 29.027344 31.585937 29.027344 31.585938 C 29.027344 31.585938 28.977422 31.388266 28.732422 30.697266 C 28.515422 30.086266 27.432781 28.188141 27.175781 27.744141 C 26.736781 29.364141 26.56175 30.458609 26.71875 30.724609 C 27.02375 31.240609 27.315313 32.129281 27.570312 33.113281 C 27.659312 33.454281 27.742266 33.806203 27.822266 34.158203 C 27.557266 36.485203 27.495047 38.822719 27.623047 41.136719 C 27.756047 43.644719 28.106906 46.1205 28.503906 48.5625 C 28.545906 48.8195 28.781922 49.005469 29.044922 48.980469 C 29.319922 48.954469 29.522094 48.710547 29.496094 48.435547 C 29.371094 47.104547 29.265266 45.777125 29.197266 44.453125 L 29.257812 45.046875 C 29.162813 43.857875 29.1365 42.577844 29.1875 41.214844 C 29.3685 36.380844 30.482109 30.550609 32.537109 24.474609 C 36.010109 15.302609 40.827328 7.9417344 45.236328 4.4277344 C 41.217328 8.0577344 35.778391 19.807203 34.150391 24.158203 C 32.327391 29.030203 31.034859 33.601422 30.255859 37.982422 C 31.599859 33.875422 35.943359 32.111328 35.943359 32.111328 C 35.943359 32.111328 38.075453 29.482516 40.564453 25.728516 C 39.073453 26.068516 36.622734 26.651094 35.802734 26.996094 C 34.592734 27.504094 34.267578 27.677734 34.267578 27.677734 C 34.267578 27.677734 38.186828 25.289984 41.548828 24.208984 C 46.173828 16.924984 51.212672 6.5767813 46.138672 2.0507812 C 45.359047 1.3555312 44.518652 1.0262988 43.640625 1.0019531 z M 9 3 C 6.79 3 5 4.79 5 7 L 5 40 C 5 42.21 6.79 44 9 44 L 25.849609 44 C 25.749609 43.1 25.680859 42.170234 25.630859 41.240234 C 25.500859 38.920234 25.550781 36.569297 25.800781 34.279297 C 25.740781 34.049297 25.690859 33.829141 25.630859 33.619141 C 25.290859 32.299141 25.06 31.850234 25 31.740234 C 24.55 30.990234 24.470234 30.080703 25.240234 27.220703 C 25.901234 24.955703 28.786375 11.163 36.359375 3 L 9 3 z"></path>
+              </svg>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Project Section -->
+    <div class="w-full lg:w-4/6 mx-auto">
+      <h1 class="text-5xl font-bold text-yellow-400 text-center font-itim my-24">Portfolio</h1>
+      <div>   
+        <!-- Project 1 -->
+        <div class="mx-5 lg:mx-auto my-11 lg:my-24 p-6 bg-gray-800 text-gray-200 rounded-lg shadow-lg flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-6">
+          
+          <!-- Left Side (Carousel) -->
+          <div class="w-full lg:w-3/5 flex items-center justify-center">
+            <div class="relative w-full h-80 lg:h-96 overflow-hidden rounded-lg shadow-md">
+              <div id="default-carousel" class="relative w-full" data-carousel="slide">
+                <!-- Carousel wrapper -->
+                <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                    <!-- Item 1 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="https://i.ibb.co.com/LJKHnKW/Whats-App-Image-2024-11-04-at-08-35-40-2ad1f30e.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="https://i.ibb.co.com/NSjZM9R/Whats-App-Image-2024-11-04-at-08-36-28-dcca4975.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="https://i.ibb.co.com/YP5M84X/Whats-App-Image-2024-11-04-at-08-41-49-16ed225b.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <!-- Item 4 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="https://i.ibb.co.com/7479Pr8/Whats-App-Image-2024-11-04-at-08-54-18-72ee278b.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <!-- Item 5 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="https://i.ibb.co.com/XbBKTB1/Whats-App-Image-2024-11-04-at-08-39-24-09116d5c.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                </div>
+                <!-- Slider controls -->
+                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Right Side (Project Info) -->
+          <div class="w-full lg:w-2/5 flex flex-col justify-between">
+            <div>
+              <h2 class="text-3xl font-bold mt-2 my-4 text-white font-mono">ExiPet - Pet Adoption</h2>
+              <p class="text-gray-300 font-itim leading-relaxed mb-5">
+                This is my Django project, built using Django Rest Framework (DRF). The project is a Pet Adoption Platform that provides users with various features to explore, adopt, and manage pet listings.
+              </p>
+              <p class="text-lg font-sans"><i class="fa-solid fa-microchip text-yellow-700 p-2"></i> Technologies:</p>
+              <ul class="flex flex-wrap gap-3 items-center my-3">
+                <li class="py-1 px-3 bg-slate-900 text-yellow-500 font-itim font-semibold rounded-lg shadow-lg hover:bg-yellow-400 hover:text-gray-800">Django</li>
+                <li class="py-1 px-3 bg-slate-900 text-yellow-500 font-itim font-semibold rounded-lg shadow-lg hover:bg-yellow-400 hover:text-gray-800">Django Rest Framework(DRF)</li>
+                <li class="py-1 px-3 bg-slate-900 text-yellow-500 font-itim font-semibold rounded-lg shadow-lg hover:bg-yellow-400 hover:text-gray-800">PostgreSQL</li>
+                <li class="py-1 px-3 bg-slate-900 text-yellow-500 font-itim font-semibold rounded-lg shadow-lg hover:bg-yellow-400 hover:text-gray-800">Javascript</li>
+                <li class="py-1 px-3 bg-slate-900 text-yellow-500 font-itim font-semibold rounded-lg shadow-lg hover:bg-yellow-400 hover:text-gray-800">HTML</li>
+                <li class="py-1 px-3 bg-slate-900 text-yellow-500 font-itim font-semibold rounded-lg shadow-lg hover:bg-yellow-400 hover:text-gray-800">Tailwind CSS</li>
+              </ul>
+              <ul class="flex flex-wrap justify-evenly gap-11 items-center mt-11">
+                <div class="frontL">
+                    <div class="btn-fl"><a target="_blank" href="https://exipet.netlify.app/">Frontend Live</a></div>
+                </div>
+                <!-- <div class="frontG">
+                    <div class="btn-fg"><a href="#">Frontend Github</a></div>
+                </div> -->
+                <button class="btn-github">
+                  <i class="fab fa-github my-auto mx-1"></i><a target="_blank" href="https://github.com/asirff399/ExiPet">Frontend on Github</a>
+                </button>
+                <button class="btn-github">
+                  <i class="fab fa-github my-auto mx-1"></i><a target="_blank" href="https://github.com/asirff399/ExiPet-DRF">Backend on Github</a> 
+                </button>
+                <div class="backL">
+                    <div class="btn-bl"><a target="_blank" href="https://exi-pet-drf.vercel.app/">Backend Live</a></div>
+                </div>
+                <!-- <div class="backG">
+                    <div class="btn-bg"><a href="#">Backend Github</a></div>
+                </div> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="mx-5 lg:mx-auto my-11 lg:my-24 p-6 bg-gray-800 text-gray-200 rounded-lg shadow-lg flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-6">
+          
+          <!-- Left Side (Carousel) -->
+          <div class="w-full lg:w-3/5 flex items-center justify-center">
+            <div class="relative w-full h-80 lg:h-96 overflow-hidden rounded-lg shadow-md">
+              <div id="default-carousel2" class="relative w-full" data-carousel="slide">
+                <!-- Carousel wrapper -->
+                <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                    <!-- Item 1 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="https://i.ibb.co.com/3mpHcpF/Whats-App-Image-2024-11-04-at-08-58-13-fa694164.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="https://i.ibb.co.com/J7J6T4x/Whats-App-Image-2024-11-04-at-08-59-28-1c4c043a.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="https://i.ibb.co.com/C50FPHs/Whats-App-Image-2024-11-04-at-09-00-06-3059a315.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <!-- Item 4 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="https://i.ibb.co.com/C28pNgT/Whats-App-Image-2024-11-04-at-09-00-40-deee4dfd.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <!-- Item 5 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="https://i.ibb.co.com/Yykb7b6/Whats-App-Image-2024-11-04-at-09-03-05-371b2d5e.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                </div>
+                <!-- Slider controls -->
+                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Right Side (Project Info) -->
+          <div class="w-full lg:w-2/5 flex flex-col justify-between">
+            <div>
+              <h2 class="text-3xl font-bold mt-2 my-4 text-white font-mono"> SoftHeal - Donation</h2>
+              <p class="text-gray-300 font-itim leading-relaxed mb-5">
+                This is my Django project, built using Django Rest Framework (DRF). The project is a Donation Platform that provides users with various features to explore and donate where they want.
+              </p>
+              <p class="text-lg font-sans"><i class="fa-solid fa-microchip text-yellow-700 p-2"></i> Technologies:</p>
+              <ul class="flex flex-wrap gap-3 items-center my-3">
+                <li class="py-1 px-3 bg-slate-900 text-yellow-500 font-itim font-semibold rounded-lg shadow-lg hover:bg-yellow-400 hover:text-gray-800">Django</li>
+                <li class="py-1 px-3 bg-slate-900 text-yellow-500 font-itim font-semibold rounded-lg shadow-lg hover:bg-yellow-400 hover:text-gray-800">Django Rest Framework(DRF)</li>
+                <li class="py-1 px-3 bg-slate-900 text-yellow-500 font-itim font-semibold rounded-lg shadow-lg hover:bg-yellow-400 hover:text-gray-800">PostgreSQL</li>
+                <li class="py-1 px-3 bg-slate-900 text-yellow-500 font-itim font-semibold rounded-lg shadow-lg hover:bg-yellow-400 hover:text-gray-800">Javascript</li>
+                <li class="py-1 px-3 bg-slate-900 text-yellow-500 font-itim font-semibold rounded-lg shadow-lg hover:bg-yellow-400 hover:text-gray-800">HTML</li>
+                <li class="py-1 px-3 bg-slate-900 text-yellow-500 font-itim font-semibold rounded-lg shadow-lg hover:bg-yellow-400 hover:text-gray-800">Tailwind CSS</li>
+              </ul>
+              <ul class="flex flex-wrap justify-evenly gap-11 items-center mt-11">
+                <div class="frontL">
+                    <div class="btn-fl"><a target="_blank" href="https://softheal.netlify.app/">Frontend Live</a></div>
+                </div>
+                <!-- <div class="frontG">
+                    <div class="btn-fg"><a href="#">Frontend Github</a></div>
+                </div> -->
+                <button class="btn-github">
+                  <i class="fab fa-github my-auto mx-1"></i><a target="_blank" href="https://github.com/asirff399/SoftHeal">Frontend on Github</a>
+                </button>
+                <button class="btn-github">
+                  <i class="fab fa-github my-auto mx-1"></i><a target="_blank" href="https://github.com/asirff399/SoftHeal-DRF">Backend on Github</a> 
+                </button>
+                <div class="backL">
+                    <div class="btn-bl"><a target="_blank" href="https://soft-heal.vercel.app/">Backend Live</a></div>
+                </div>
+                <!-- <div class="backG">
+                    <div class="btn-bg"><a href="#">Backend Github</a></div>
+                </div> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+      </div>   
+    </div>
+
+    <!-- Contact Info -->
+    <div class="w-full lg:w-4/6 mx-auto">
+      <h1 class="text-5xl font-bold text-yellow-400 text-center font-itim mt-24 ">CONTACT</h1>
+      <div class="flex justify-evenly items-center gap-10 flex-wrap lg:flex-nowrap my-16">
+        <a target="_blank" href="https://www.linkedin.com/in/a-intisar/" class="w-[380px] h-[200px] flex flex-col items-center justify-center bg-gray-800 p-5 rounded-xl shadow-lg mx-5 lg:my-16">
+          <i class="fa-brands fa-linkedin text-yellow-400 text-5xl mb-3"></i>
+          <h1 class="text-white text-3xl text-center font-itim">Md Asir Intisar</h1>
+        </a>
+        <div class="w-[380px] h-[200px] flex flex-col items-center justify-center bg-gray-800 p-5 rounded-xl shadow-lg mx-5 lg:my-16">
+          <i class="fa-brands fa-whatsapp text-yellow-400 text-5xl mb-2"></i>
+          <h1 class="text-white text-3xl text-center font-itim">Call Me</h1>
+          <p class="text-white text-center font-sans">+8801774193363</p>
+        </div>
+        <div class="w-[380px] h-[200px] flex flex-col items-center justify-center bg-gray-800 p-5 rounded-xl shadow-lg mx-5 lg:my-16">
+          <i class="fa-solid fa-envelope text-yellow-400 text-5xl"></i>
+          <h1 class="text-white text-3xl text-center font-itim mt-2">Email</h1>
+          <p class="text-white text-center font-sans mt-1">aintisar48@gmail.com</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="w-full lg:w-4/6 mx-auto">
+      <div class="my-16 py-11 bg-slate-800 rounded-xl shadow-lg mx-5 md:mx-11 lg:mx-0">
+        <h1 class="text-5xl font-bold text-yellow-400 text-center font-itim mb-5">Get In Touch</h1>
+        <div class="flex justify-evenly items-center flex-col-reverse lg:flex-row px-5 lg:p-0 md:px-5">
+            <!-- Form -->
+            <div class="w-full p-8 rounded-xl shadow-lg border border-gray-600 mx-11">
+              <form class="space-y-4">
+                
+                <!-- Name Field -->
+                <div>
+                  <label for="name" class="block text-sm font-medium text-gray-300">Name</label>
+                  <input type="text" id="name" class="w-full px-4 py-2 mt-2 bg-gray-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400" placeholder="Your Name" required>
+                </div>
+                
+                <!-- Email Field -->
+                <div>
+                  <label for="email" class="block text-sm font-medium text-gray-300">Email</label>
+                  <input type="email" id="email" class="w-full px-4 py-2 mt-2 bg-gray-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400" placeholder="Your Email" required>
+                </div>
+                
+                <!-- Message Field -->
+                <div>
+                  <label for="message" class="block text-sm font-medium text-gray-300">Message</label>
+                  <textarea id="message" rows="4" class="w-full px-4 py-2 mt-2 bg-gray-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400" placeholder="Your Message" required></textarea>
+                </div>
+                
+                <!-- Submit Button -->
+                <button type="submit" class="w-full py-2 mt-4 font-semibold text-white bg-yellow-500 rounded-md hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2">
+                  Send Message
+                </button>
+              </form>
+            </div>
+
+            <!-- left animation -->
+            <div >
+              <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script> 
+              <dotlottie-player src="https://lottie.host/728c9ab8-ed30-4f99-8c8a-b3662c86e4f6/fPfMfw51hM.json" background="transparent" speed="1" class="max-w-[350px] md:max-w-[500px] lg:min-w-[530px]" loop autoplay></dotlottie-player>
+            </div>
+        </div>
+        
+      </div>   
+    </div>
+
+   </main>
+
+   <!-- Footer Section -->
+   <footer class="bg-gray-800 py-6">
+     <div class="flex justify-evenly items-center mx-auto text-center text-gray-400">
+      <!-- Name and Role -->
+      <h1 class="hidden lg:block md:block text-2xl font-semibold font-signature text-white">Asir</h1>
+       
+      <!-- Copyright -->
+      <p class="text-gray-500 text-sm">&copy; 2024 Asir Intisar. All rights reserved.</p>
+
+      <!-- Social Media Links -->
+      <div class="flex justify-center gap-3 md:gap-7 lg:gap-10 items-center">
+        <a href="https://github.com/asirff399" target="_blank" class="text-black">
+          <i class="fab fa-github text-xl bg-gray-100 px-3 py-2 rounded-full hover:text-white hover:bg-yellow-500"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/a-intisar/" target="_blank" class="text-black">
+          <i class="fab fa-linkedin text-xl bg-gray-100 px-3 py-2 rounded-full hover:text-white hover:bg-yellow-500"></i>
+        </a>
+        <a href="https://api.whatsapp.com/message/Q6C3LBLZDBYLH1?autoload=1&app_absent=0" target="_blank" class="text-black">
+          <i class="fa-brands fa-whatsapp text-xl bg-gray-100 px-3 py-2 rounded-full hover:text-white hover:bg-yellow-500"></i>
+        </a>
+      </div>
+  
+    </div>
+   </footer>
+
+  <!-- Scripts -->
+  <style>
+    .font-itim {
+      font-family: 'Itim', cursive;
+    }
+  </style>
+  <style>
+    .font-signature {
+      font-family: 'Yellowtail', cursive;
+    }
+  </style>
+
+  <script src="https://unpkg.com/flowbite@1.6.0/dist/flowbite.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const carouselElement = document.getElementById('default-carousel');
+      const nextButton = carouselElement.querySelector('[data-carousel-next]');
+      const intervalTime = 2000; // Auto-slide interval in milliseconds
+
+      // Function to trigger the "Next" button click
+      function autoSlide() {
+        nextButton.click();
+      }
+
+      // Start auto-slide with the specified interval
+      setInterval(autoSlide, intervalTime);
+    });
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const carouselElement = document.getElementById('default-carousel2');
+      const nextButton = carouselElement.querySelector('[data-carousel-next]');
+      const intervalTime = 2000; // Auto-slide interval in milliseconds
+
+      // Function to trigger the "Next" button click
+      function autoSlide() {
+        nextButton.click();
+      }
+
+      // Start auto-slide with the specified interval
+      setInterval(autoSlide, intervalTime);
+    });
+  </script>
+  
+</body>
+</html>
