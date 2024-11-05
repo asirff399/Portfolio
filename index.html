@@ -20,10 +20,10 @@
         </div>
         <!-- Nav Middle -->
          <div class="hidden md:block lg:block flex justify-center gap-5 items-center">
-            <a href="" class="text-lg uppercase font-semibold font-sans py-1 px-5 hover:bg-yellow-400 hover:text-slate-500 hover:border-2 border-slate-600 rounded-full">Home</a>
-            <a href="" class="text-lg uppercase font-semibold font-sans py-1 px-5 hover:bg-yellow-400 hover:text-slate-500 hover:border-2 border-slate-600 rounded-full">Projects</a>
-            <a href="" class="text-lg uppercase font-semibold font-sans py-1 px-5 hover:bg-yellow-400 hover:text-slate-500 hover:border-2 border-slate-600 rounded-full">About</a>
-            <a href="" class="text-lg uppercase font-semibold font-sans py-1 px-5 hover:bg-yellow-400 hover:text-slate-500 hover:border-2 border-slate-600 rounded-full">Contact</a>
+            <a href="#banner" class="text-lg uppercase font-semibold font-sans py-1 px-5 hover:bg-yellow-400 hover:text-slate-500 hover:border-2 border-slate-600 rounded-full">Home</a>
+            <a href="#projects" class="text-lg uppercase font-semibold font-sans py-1 px-5 hover:bg-yellow-400 hover:text-slate-500 hover:border-2 border-slate-600 rounded-full">Projects</a>
+            <a href="#about" class="text-lg uppercase font-semibold font-sans py-1 px-5 hover:bg-yellow-400 hover:text-slate-500 hover:border-2 border-slate-600 rounded-full">About</a>
+            <a href="#contact" class="text-lg uppercase font-semibold font-sans py-1 px-5 hover:bg-yellow-400 hover:text-slate-500 hover:border-2 border-slate-600 rounded-full">Contact</a>
          </div>
         <!-- Nav Right -->
         <div class="resume-btn mt-2 ">
@@ -32,14 +32,14 @@
     </nav>
    <main class="pt-32">
     <!-- Banner Section -->
-    <div class="flex flex-col-reverse gap-11 lg:gap-0 lg:flex-row justify-evenly items-center px-5 md:px-11 lg:p-20">
+    <div id="banner" class="flex flex-col-reverse gap-11 lg:gap-0 lg:flex-row justify-evenly items-center px-5 md:px-11 lg:p-20">
         <!-- Banner left -->
         <div class="max-w-[750px]">
             <h1 class="text-blue-300 text-2xl font-sans font-semibold mb-3">HELLO 😊!</h1>
             <h1 class="text-white text-5xl font-mono font-semibold my-3">I'M MD ASIR INTISAR</h1>
             <h2 class="text-yellow-600 text-3xl font-sans font-semibold uppercase italic">Software Developer</h2>
             <p class="my-5 font-itim text-lg text-white">I'm a back-end focused full-stack Django developer from Rajshahi, Bangladesh, with a deep passion for AI and machine learning.</p>
-            <button type="button" class="btn-con mt-8">
+            <button type="button" data-modal-target="contact-modal" data-modal-toggle="contact-modal" class="btn-con mt-8">
                 <strong class="text-white text-lg">Contact</strong>
                 <div id="container-stars">
                   <div id="stars"></div>
@@ -49,7 +49,7 @@
                   <div class="circle"></div>
                   <div class="circle"></div>
                 </div>
-              </button>
+            </button>
         </div>
         <!-- Banner right -->
         <div class="max-w-[300px] md:max-w-[350px] lg:max-w-[370px]">
@@ -57,13 +57,72 @@
         </div>
     </div>
 
+    <!-- Contact Modal -->
+    <div id="contact-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+        <div class="relative p-4 w-full max-w-md max-h-full">
+            <!-- Modal content -->
+            <div class="relative rounded-lg shadow bg-gray-800">
+                <!-- Modal header -->
+                <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t border-gray-600">
+                    <h3 class="text-lg font-semibold text-white">
+                        Connect
+                    </h3>
+                    <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm h-8 w-8 ms-auto inline-flex justify-center items-center" data-modal-toggle="contact-modal">
+                        <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                        </svg>
+                        <span class="sr-only">Close modal</span>
+                    </button>
+                </div>
+                <!-- Modal body -->
+                <div class="p-4 md:p-5">
+                      <div class="max-w-xs bg-gray-900 text-white rounded-lg overflow-hidden shadow-lg mx-auto mb-7">
+                        <!-- Topside Image -->
+                        <img src="https://i.ibb.co.com/vv4g1RY/Whats-App-Image-2024-11-02-at-18-03-33-6a7fb4bc.jpg" alt="Profile Image" class="w-[150px] h-[150px] rounded-full mx-auto mt-11 object-cover">
+                        
+                        <!-- Content -->
+                        <div class="p-6 text-center">
+                            <!-- Name -->
+                            <h2 class="text-xl font-semibold">MD ASIR INTISAR</h2>
+                            
+                            <!-- Email -->
+                            <p class="text-gray-400 mt-3">aintisar48@gmail.com</p>
+                            
+                            <!-- Phone Number -->
+                            <p class="text-gray-400 mt-1">+880 177 419 3363</p>
+                        </div>
+                    </div>
+                    <!-- Contact links -->
+                    <div class="grid grid-cols-2 items-center gap-6 mb-7">
+                      <div class="bg-slate-900 text-yellow-400 hover:bg-yellow-400 hover:text-black font-bold text-lg font-mono text-center py-2 rounded-lg shadow-lg">
+                        <a target="_blank" href="https://www.linkedin.com/in/a-intisar/"><i class="fa-brands fa-linkedin text-2xl px-3"></i>Linkedin</a>
+                      </div>
+                      <div class="bg-slate-900 text-yellow-400 hover:bg-yellow-400 hover:text-black font-bold text-lg font-mono text-center py-2 rounded-lg shadow-lg">
+                        <a href="https://api.whatsapp.com/message/Q6C3LBLZDBYLH1?autoload=1&app_absent=0" target="_blank"><i class="fa-brands fa-whatsapp text-2xl px-3"></i>Whatsapp</a>
+                      </div>
+                      <div class="bg-slate-900 text-yellow-400 hover:bg-yellow-400 hover:text-black font-bold text-lg font-mono text-center py-2 rounded-lg shadow-lg">
+                        <a href="https://github.com/asirff399" target="_blank"><i class="fab fa-github text-2xl px-3"></i>Github</a>
+                      </div>
+                      <div class="bg-slate-900 text-yellow-400 hover:bg-yellow-400 hover:text-black font-bold text-lg font-mono text-center py-2 rounded-lg shadow-lg">
+                        <a href="mailto:aintisar48@gmail.com" target="_blank"><i class="fa-solid fa-envelope text-2xl px-3"></i>Gmail</a>
+                      </div>
+                    </div>
+                    <!-- Resume -->
+                    <div class="resume-btn mx-auto">
+                      <div class="btn-r"><a target="_blank" href="https://drive.google.com/file/d/1oCqZSTyvK5Mn34mFSt0EAJaNmj7TV1sg/view?usp=sharing">Resume</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- About Section -->
-    <div class="w-full lg:w-5/6 mx-auto">
+    <div id="about" class="w-full lg:w-5/6 mx-auto">
         <h1 class="text-5xl font-bold text-yellow-400 font-itim text-center mt-11 lg:my-11">About Me</h1>
         <div class="flex justify-center flex-col lg:flex-row items-center p-2 lg:p-8 my-11 lg:my-24">
             <!-- Left Side (Image) -->
-            <div class="w-[370px] ">
-                <img src="https://i.ibb.co.com/V9LvKHn/pic3435.jpg" alt="Your Image" class="border-4 mx-auto lg:mx-0 border-slate-600 w-80 h-80 rounded-full object-cover shadow-lg">
+            <div class="w-[370px] h-[370px]">
+                <img src="https://i.ibb.co.com/vv4g1RY/Whats-App-Image-2024-11-02-at-18-03-33-6a7fb4bc.jpg" alt="Your Image" class="w-full h-full border-4 lg:mx-0 border-slate-600 rounded-full object-cover shadow-lg">
             </div>
             <!-- Middle Divider Line -->
             <div class="hidden lg:block h-80 border-l-4 border-red-500 mx-8"></div>
@@ -95,10 +154,10 @@
                   <span class="text-red-500">def</span> <span class="text-purple-400">__init__</span>(self): 
                           self.degree = <span class="text-green-400">"Bachelor of Business Administration (BBA)" </span> 
                           self.institution = <span class="text-green-400">"National University of Bangladesh" </span>
-                          self.year = <span class="text-green-400">"2023 - 2024"</span>
+                          self.session = <span class="text-green-400">"2023 - 2024"</span>
               
                   <span class="text-red-500">def</span> <span class="text-purple-400">display</span>(self):
-                  <span class="text-red-500">return</span> <span class="text-purple-400">f</span><span class="text-green-400">"{self.degree} | {self.institution} | {self.year}"</span> 
+                  <span class="text-red-500">return</span> <span class="text-purple-400">f</span><span class="text-green-400">"{self.degree} | {self.institution} | {self.session}"</span> 
               
               <span></span>edu = <span class="text-green-500">Education</span>() 
               <span class="text-purple-600">print</span>(edu.<span class="text-purple-400">display</span>())
@@ -215,7 +274,7 @@
     </div>
 
     <!-- Project Section -->
-    <div class="w-full lg:w-4/6 mx-auto">
+    <div id="projects" class="w-full lg:w-4/6 mx-auto">
       <h1 class="text-5xl font-bold text-yellow-400 text-center font-itim my-24">Portfolio</h1>
       <div>   
         <!-- Project 1 -->
@@ -410,21 +469,21 @@
           <i class="fa-brands fa-linkedin text-yellow-400 text-5xl mb-3"></i>
           <h1 class="text-white text-3xl text-center font-itim">Md Asir Intisar</h1>
         </a>
-        <div class="w-[380px] h-[200px] flex flex-col items-center justify-center bg-gray-800 p-5 rounded-xl shadow-lg mx-5 lg:my-16">
+        <a href="https://api.whatsapp.com/message/Q6C3LBLZDBYLH1?autoload=1&app_absent=0" target="_blank" class="w-[380px] h-[200px] flex flex-col items-center justify-center bg-gray-800 p-5 rounded-xl shadow-lg mx-5 lg:my-16">
           <i class="fa-brands fa-whatsapp text-yellow-400 text-5xl mb-2"></i>
           <h1 class="text-white text-3xl text-center font-itim">Call Me</h1>
           <p class="text-white text-center font-sans">+8801774193363</p>
-        </div>
-        <div class="w-[380px] h-[200px] flex flex-col items-center justify-center bg-gray-800 p-5 rounded-xl shadow-lg mx-5 lg:my-16">
+        </a>
+        <a href="mailto:aintisar48@gmail.com" target="_blank" class="w-[380px] h-[200px] flex flex-col items-center justify-center bg-gray-800 p-5 rounded-xl shadow-lg mx-5 lg:my-16">
           <i class="fa-solid fa-envelope text-yellow-400 text-5xl"></i>
           <h1 class="text-white text-3xl text-center font-itim mt-2">Email</h1>
           <p class="text-white text-center font-sans mt-1">aintisar48@gmail.com</p>
-        </div>
+        </a>
       </div>
     </div>
 
     <!-- Contact Form -->
-    <div class="w-full lg:w-4/6 mx-auto">
+    <div id="contact" class="w-full lg:w-4/6 mx-auto">
       <div class="my-16 py-11 bg-slate-800 rounded-xl shadow-lg mx-5 md:mx-11 lg:mx-0">
         <h1 class="text-5xl font-bold text-yellow-400 text-center font-itim mb-5">Get In Touch</h1>
         <div class="flex justify-evenly items-center flex-col-reverse lg:flex-row px-5 lg:p-0 md:px-5">

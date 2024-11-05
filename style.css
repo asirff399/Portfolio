@@ -2,6 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 /* From Uiverse.io by VashonG */ 
 .resume-btn {
     display: flex;
@@ -13,7 +17,6 @@
   .resume-btn .btn-r {
     height: 50px;
     margin: 20px;
-    margin-bottom: 40px;
     position: relative;
     width: 155px;
   }
