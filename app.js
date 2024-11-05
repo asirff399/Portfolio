@@ -7,7 +7,7 @@ const contactUs = (event) => {
     console.log(formData)
     
     // Directly use formData with fetch
-    fetch("http://127.0.0.1:8000/contact/", {
+    fetch("https://contact-seven-coral.vercel.app/contact/", {
         method: "POST",
         body: formData, // Send the FormData directly
     })
