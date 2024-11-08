@@ -16,14 +16,14 @@
   <nav class="fixed w-full h-[100px] backdrop-blur-md text-white flex justify-between md:justify-evenly lg:justify-evenly items-center p-5 z-50">
         <!-- Nav Left -->
         <div>
-           <h1 class="font-signature text-2xl">Asir Intisar</h1>
+           <h1 class="font-signature text-2xl text-nowrap">Asir Intisar</h1>
         </div>
         <!-- Nav Middle -->
-         <div class="hidden md:block lg:block flex justify-center gap-5 items-center">
-            <a href="#banner" class="text-lg uppercase font-semibold font-sans py-1 px-5 hover:bg-yellow-400 hover:text-slate-500 hover:border-2 border-slate-600 rounded-full">Home</a>
-            <a href="#projects" class="text-lg uppercase font-semibold font-sans py-1 px-5 hover:bg-yellow-400 hover:text-slate-500 hover:border-2 border-slate-600 rounded-full">Projects</a>
-            <a href="#about" class="text-lg uppercase font-semibold font-sans py-1 px-5 hover:bg-yellow-400 hover:text-slate-500 hover:border-2 border-slate-600 rounded-full">About</a>
-            <a href="#contact" class="text-lg uppercase font-semibold font-sans py-1 px-5 hover:bg-yellow-400 hover:text-slate-500 hover:border-2 border-slate-600 rounded-full">Contact</a>
+         <div class="hidden md:block lg:block flex justify-center items-center gap-5">
+            <a href="#banner" class="text-lg uppercase font-semibold font-sans py-1 px-2 lg:px-5 hover:bg-yellow-400 hover:text-slate-500 hover:border-2 border-slate-600 rounded-full">Home</a>
+            <a href="#projects" class="text-lg uppercase font-semibold font-sans py-1 px-2 lg:px-5 hover:bg-yellow-400 hover:text-slate-500 hover:border-2 border-slate-600 rounded-full">Projects</a>
+            <a href="#about" class="text-lg uppercase font-semibold font-sans py-1 px-2 lg:px-5 hover:bg-yellow-400 hover:text-slate-500 hover:border-2 border-slate-600 rounded-full">About</a>
+            <a href="#contact" class="text-lg uppercase font-semibold font-sans py-1 px-2 lg:px-5 hover:bg-yellow-400 hover:text-slate-500 hover:border-2 border-slate-600 rounded-full">Contact</a>
          </div>
         <!-- Nav Right -->
         <div class="resume-btn mt-2 ">
@@ -32,7 +32,7 @@
   </nav>
 
   <!-- Main -->
-  <main class="lg:pt-[70px]">
+  <main class="pt-[110px] lg:pt-[70px]">
     <!-- Banner Section -->
     <div id="banner" class="flex flex-col-reverse gap-11 lg:gap-0 lg:flex-row justify-evenly items-center px-5 md:px-11 lg:p-20">
         <!-- Banner left -->
@@ -119,13 +119,13 @@
     </div>
 
     <!-- About Section -->
-    <div id="about" class="w-full lg:w-5/6 mx-auto">
-        <div class="w-full">
+    <div id="about" class="w-full lg:w-5/6 mx-auto mt-16 lg:m-0">
+        <div class="hidden lg:block w-full">
         <h1 class="w-[200px] text-4xl font-bold text-white font-itim mx-auto">About</h1>
       </div>
         <div class="flex justify-center flex-col lg:flex-row items-center lg:gap-20 p-2 lg:p-8 my-5 lg:my-11">
             <!-- Left Side (Image) -->
-            <div class="w-[370px] h-[370px]">
+            <div class="w-[280px] h-[280px] md:w-[370px] md:h-[370px] lg:w-[370px] lg:h-[370px]">
                 <img src="https://i.ibb.co.com/vv4g1RY/Whats-App-Image-2024-11-02-at-18-03-33-6a7fb4bc.jpg" alt="Your Image" class="w-full h-full border-4 lg:mx-0 border-slate-600 rounded-full object-cover shadow-lg">
             </div>
             <!-- Middle Divider Line -->
@@ -157,12 +157,10 @@
         </div>
     </div>
 
-    
-
     <!-- Skill Section -->
     <div class="w-full lg:w-4/6 mx-auto">
-      <h1 class="text-4xl font-bold text-white text-center font-itim mx-auto py-2 px-3 mt-11 lg:my-11">Skills</h1>
-      <div class="flex justify-center items-center gap-6 md:gap-16 lg:gap-16 flex-wrap  my-24">
+      <h1 class="text-4xl font-bold text-white text-center font-itim mx-auto py-2 px-3 my-11 lg:my-11">Skills</h1>
+      <div class="flex justify-center items-center gap-6 md:gap-16 lg:gap-16 flex-wrap lg:my-24">
         <!-- C -->
         <div class="skill-card">
           <div class="skill-card-info">
@@ -530,7 +528,7 @@
       <p class="text-gray-500 text-sm">&copy; 2024 Asir Intisar. All rights reserved.</p>
 
       <!-- Social Media Links -->
-      <div class="flex justify-center gap-3 md:gap-7 lg:gap-10 items-center">
+      <div class="flex justify-center gap-3 md:gap-7 lg:gap-10 items-center me-3 lg:m-0">
         <a href="https://github.com/asirff399" target="_blank" class="text-black">
           <i class="fab fa-github text-xl bg-gray-100 px-3 py-2 rounded-full hover:text-white hover:bg-yellow-500"></i>
         </a>
